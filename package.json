@@ -1,18 +1,25 @@
 {
   "name": "mapview-cache-tile",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~47.0.3",
+    "expo": "~45",
+    "expo-asset": "~8.6.1",
+    "expo-file-system": "~14.1.0",
+    "expo-splash-screen": "~0.16.2",
     "expo-status-bar": "~1.4.2",
-    "react": "18.1.0",
-    "react-native": "0.70.5"
+    "expo-updates": "~0.15.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.68.2",
+    "react-native-map-markerclustering": "^1.0.12",
+    "react-native-maps": "0.31.1",
+    "react-native-web": "~0.18.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

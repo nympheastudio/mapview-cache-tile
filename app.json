@@ -18,12 +18,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.perodo.mapviewcachetile"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.perodo.mapviewcachetile",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDvHPMW_teSoKz_U9Nkf3TxZUp1kOSEOrE"
+        }
       }
     },
     "web": {
